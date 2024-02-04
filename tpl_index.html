@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Friendo Ring</title>
+	<link rel="stylesheet" href="base.css">
+	<link rel="stylesheet" href="index.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header>
+	<img src="icon.svg" width="104.26" height="92.25" />
+	<h1>Friendo<br/>Ring</h1>
+</header>
+<main>
+<ul id="l">[user_list]
+</ul>
+<!-- <iframe width="400" height="100" src="./user/1e1001.html" style="border: 1px solid white;"></iframe> -->
+</main>
+<section style="display:none">
+<div id="p0"></div>[user_text]
+</section>
+<script>
+let y="style",z="display",c=l.children,s=0,i=0,e
+for(;i<c.length;)e=c[i].firstChild,window["p"+(e.i=++i)][y][z]="none",e.onmouseout=e.onblur=function(g){g.target.onfocus(null)},e.onfocus=e.onmouseover=function(g){e=(g&&g.target.i)||document.activeElement.i||0;window["p"+s][y][z]="none",window["p"+(s=e)][y][z]="block"}
+document.body.className="js"
+</script>
+</body>
+</html>

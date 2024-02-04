@@ -1,0 +1,30 @@
+:root {
+	font-size: 22px;
+}
+body {
+	background: url("./grid-light-small.png"),  #ffffff;
+	/* overflow: hidden; */
+	padding: 0.5em 0.75em;
+}
+h1 {
+	font-size: 1.1em;
+	margin: 0 0 0.8em;
+}
+img {
+	vertical-align:bottom;
+}
+main {
+	display: flex;
+}
+div {
+	flex-grow: 1;
+}
+@keyframes bg {
+	from { background-position: 0 0, 0 0; }
+	to { background-position: 384px -96px, 0 0; }
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		background: url("./grid-dark-small.png"), #0f0f0f;
+	}
+}

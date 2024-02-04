@@ -1,0 +1,38 @@
+body {
+	animation: 20s linear infinite normal forwards running bg;
+	margin: 0;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+h1 {
+	font-family: "Three Weekend Go", sans-serif;
+}
+img {
+	filter: brightness(0%);
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+	outline: none;
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		color: white;
+	}
+	path {
+		fill: white;
+	}
+	img {
+		filter: unset;
+	}
+}
+@font-face {
+	font-family: "Three Weekend Go";
+	src: url("fonts/Three Weekend Go.woff2") format("woff2"), url("fonts/Three Weekend Go.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Hanken Grotesk";
+	src: url("fonts/Hanken\ Grotesk.woff2") format("woff2"), url("fonts/Hanken\ Grotesk.ttf") format("truetype");
+}
