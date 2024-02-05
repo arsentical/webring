@@ -2,6 +2,7 @@ body {
 	animation: 20s linear infinite normal forwards running bg;
 	margin: 0;
 	font-family: "Hanken Grotesk", sans-serif;
+	image-rendering: crisp-edges;
 }
 h1 {
 	font-family: "Three Weekend Go", sans-serif;

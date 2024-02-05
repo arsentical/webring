@@ -3,7 +3,6 @@
 }
 body {
 	background: url("./grid-light.png"), fixed linear-gradient(#ffffff 20%, #bbc0cc 70%, #ffffff 90%);
-	image-rendering: crisp-edges;
 }
 h1 {
 	line-height: 1.2;
