@@ -3,10 +3,11 @@
 ## webring embed
 `<iframe width="400" height="100" src="https://devpty.github.io/webring/user/[you].html" style="border:1px solid currentColor"></iframe>`
 
-you can change:
+generally, you can change:
 - border decoration (`style`)
-- height (>100)
-- width (>400)
+- width >180
+- height >80
+- ↑ width × height should be at least 40,000
 but try to keep changes minimal, only to fit in the website layout
 
 ## to update user text

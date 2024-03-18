@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>User IFrame Test</title>
+</head>
+<body>
+	<input type="number" id="w" value="400"> &times; <input type="number" id="h" value="100">
+	<button onclick="r()">go</button>
+	<br><iframe src="./docs/user/1e1001.html" width="400" height="100" id="f"></iframe>
+	<script>
+		(z=w.onchange=h.onchange=function(){f.width=w.value,f.height=h.value})()
+		function r() {
+			if (++w.value==40000)
+				return
+			h.value=40000/w.value
+			z()
+			requestAnimationFrame(r)
+		}
+	</script>
+</body>
+</html>

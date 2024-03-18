@@ -9,19 +9,27 @@ body {
 h1 {
 	font-size: 1.1em;
 	margin: 0;
+	margin-top: -0.5em;
+}
+h1 > span {
+	display: inline-block;
+	margin-top: 0.5em;
 }
 img {
+	margin-top: 0.5em;
 	vertical-align:bottom;
 }
 main {
-	display: flex;
 	position: absolute;
 	bottom: 0.5em;
 	left: 0.75em;
 	right: 0.75em;
 }
-div {
-	flex-grow: 1;
+main > :first-child {
+	float: left;
+}
+main > :last-child {
+	float: right;
 }
 @keyframes bg {
 	from { background-position: 0 0, 0 0; }
